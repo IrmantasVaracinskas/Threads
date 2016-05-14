@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="62.0" layoutY="140.0" mnemonicParsing="false" onAction="#buttonOne" prefHeight="26.0" prefWidth="63.0" text="Pi" />
+      <Button layoutX="331.0" layoutY="140.0" mnemonicParsing="false" onAction="#buttonTwo" prefHeight="26.0" prefWidth="80.0" text="Fibonacci" />
+      <TextField fx:id="fibonacci" layoutX="314.0" layoutY="85.0" />
+      <Label layoutX="195.0" layoutY="89.0" text="Enter fibonacci to find:" />
+      <Label fx:id="piCounter" layoutX="59.0" layoutY="192.0" text="0" />
+      <Label fx:id="fibonacciCounter" layoutX="314.0" layoutY="192.0" text="0" />
+   </children>
+</Pane>
